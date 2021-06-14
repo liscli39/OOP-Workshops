@@ -1,4 +1,4 @@
-// Workshop 3: 
+// Workshop 3:
 // Version: 1.0
 // Date: 2021-06-03
 // Author: Fardad Soleimanloo

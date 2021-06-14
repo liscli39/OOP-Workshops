@@ -4,6 +4,3 @@ namespace sdds {
    void strnCpy(char* des, const char* src, int len);
 }
 #endif // !SDDS_CSTRING_H_
-
-
-
