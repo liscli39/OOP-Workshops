@@ -23,7 +23,7 @@ namespace sdds {
       int len = 0;
       while (*(Cstr + len++) != '\0') { }
 
-      m_contentName = new char[len];
+      m_contentName = new char[len + 1];
       strCpy(m_contentName, Cstr, len);
     }
   }
@@ -58,7 +58,7 @@ namespace sdds {
       if (contentName != nullptr) {
         int len = 0;
         while (*(contentName + len++) != '\0') { }
-        m_contentName = new char[len];
+        m_contentName = new char[len + 1];
         strCpy(m_contentName, contentName, len);
       }
 

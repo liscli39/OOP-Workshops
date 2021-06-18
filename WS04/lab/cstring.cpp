@@ -5,6 +5,8 @@ namespace sdds {
     for (int i = 0; i < len; i++) {
       des[i] = src[i];
     }
+
+    des[len] = '\0';
   }
 
   bool strCmp(const char* des, const char* src) {
