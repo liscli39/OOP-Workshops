@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1625631358 source:/home/miichi/Custom/OOP-Workshops/WS06/lab/cstring.cpp
+	"cstring.h"
+	<string.h>
+
+1625631110 /home/miichi/Custom/OOP-Workshops/WS06/lab/cstring.h
+
+1625652128 source:/home/miichi/Custom/OOP-Workshops/WS06/lab/TextFile.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<iomanip>
+	"TextFile.h"
+	"cstring.h"
+
+1625631110 /home/miichi/Custom/OOP-Workshops/WS06/lab/TextFile.h
+	<iostream>
+
+1625648241 source:/home/miichi/Custom/OOP-Workshops/WS06/lab/w6p1_tester.cpp
+	<iostream>
+	<fstream>
+	<string>
+	"TextFile.h"
+

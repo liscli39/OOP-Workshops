@@ -27,6 +27,7 @@ int main() {
    cin >> E;
    cout << E << endl;
    cout << S << endl;
+   cout << "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" << endl;
    FirstTen(E);
    FirstTen(S);
    E = S;
@@ -40,6 +41,8 @@ int main() {
    return 0;
 }
 void FirstTen(TextFile T) {
+   cout << "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" << endl;
+
    if (T) {
       cout << ">>> First ten lines of : " << T.name() << endl;
       for (unsigned i = 0; i < 10; i++) {
