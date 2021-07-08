@@ -22,3 +22,26 @@
 	<string>
 	"TextFile.h"
 
+1625667595 source:d:\freelancer\oop-workshops\ws06\lab\cstring.cpp
+	"cstring.h"
+	<string.h>
+
+1625667595 d:\freelancer\oop-workshops\ws06\lab\cstring.h
+
+1625763050 source:d:\freelancer\oop-workshops\ws06\lab\textfile.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<iomanip>
+	"TextFile.h"
+	"cstring.h"
+
+1625760852 d:\freelancer\oop-workshops\ws06\lab\textfile.h
+	<iostream>
+
+1625762873 source:d:\freelancer\oop-workshops\ws06\lab\w6p1_tester.cpp
+	<iostream>
+	<fstream>
+	<string>
+	"TextFile.h"
+

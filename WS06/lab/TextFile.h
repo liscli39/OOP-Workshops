@@ -6,7 +6,7 @@ namespace sdds {
    class Line {
       char* m_value{ nullptr };
       operator const char* ()const;
-      Line() {}
+      Line();
       Line& operator=(const char*);
       ~Line();
       friend class TextFile;

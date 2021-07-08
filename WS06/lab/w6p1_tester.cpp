@@ -1,9 +1,9 @@
-// Workshop 6:
-// Version: 1.0
-// Date: 2021-06-03
+// Workshop 6-PART 1:
+// Version: 0.9
+// Date: 2021/02/20
 // Author: Fardad Soleimanloo
 // Description:
-// This file tests the lab section of your workshop
+// This file tests the PART 1 section of your workshop
 /////////////////////////////////////////////
 #include <iostream>
 #include <fstream>
@@ -27,7 +27,6 @@ int main() {
    cin >> E;
    cout << E << endl;
    cout << S << endl;
-   cout << "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" << endl;
    FirstTen(E);
    FirstTen(S);
    E = S;
@@ -41,8 +40,6 @@ int main() {
    return 0;
 }
 void FirstTen(TextFile T) {
-   cout << "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" << endl;
-
    if (T) {
       cout << ">>> First ten lines of : " << T.name() << endl;
       for (unsigned i = 0; i < 10; i++) {
