@@ -31,6 +31,16 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="ExecutionOutputSample.txt" />
+		<Unit filename="TextFile.cpp" />
+		<Unit filename="TextFile.h" />
+		<Unit filename="cstring.cpp" />
+		<Unit filename="cstring.h" />
+		<Unit filename="echoes.txt" />
+		<Unit filename="echoesOriginal.txt" />
+		<Unit filename="seamus.txt" />
+		<Unit filename="seamusOriginal.txt" />
+		<Unit filename="w6p1_tester.cpp" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>
