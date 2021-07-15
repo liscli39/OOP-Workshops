@@ -5,7 +5,7 @@
 using namespace std;
 
 namespace sdds {
-  MotorVehicle::MotorVehicle(char *licensePlate, int year){
+  MotorVehicle::MotorVehicle(const char *licensePlate, int year){
     if (licensePlate != nullptr) {
       strcpy(m_licensePlate, licensePlate);
       strcpy(m_address, "Factory");

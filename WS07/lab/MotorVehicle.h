@@ -7,7 +7,7 @@ namespace sdds {
     char m_address[65];
     int m_year;
   public:
-    MotorVehicle(char *licensePlate, int m_year);
+    MotorVehicle(const char *licensePlate, int m_year);
     void moveTo(const char* address);
     std::ostream& write(std::ostream& os) const;
     std::istream& read(std::istream& in);
